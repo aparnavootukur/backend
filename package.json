@@ -1,0 +1,16 @@
+{
+  "name": "task-manager",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npm-run-all --parallel server client",
+    "server": "cd backend && npm start",
+    "client": "cd task-management-frontend && npm start"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "npm-run-all": "^4.1.5"
+  },
+  "dependencies": {
+    "react-router-dom": "^5.3.4"
+  }
+}

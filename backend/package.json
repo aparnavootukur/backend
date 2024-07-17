@@ -1,0 +1,33 @@
+{
+  "name": "mern-task-manager-backend",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "Task manager",
+    "Tasks"
+  ],
+  "author": "Mwenda",
+  "license": "MIT",
+  "description": "The backend part of simple task manager with user authentication",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mern-task-manager": "file:..",
+    "mongoose": "^6.2.3",
+    "mysql": "^2.18.1",
+    "pg": "^8.12.0",
+    "postgres": "^3.4.4",
+    "sequelize": "^6.37.3",
+    "sequelize-cli": "^6.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
